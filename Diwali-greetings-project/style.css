@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+}
+.first{
+    background-image: url(/orange-backdrop\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.design{
+width: 250px;
+}
+
+
+.textaudio{
+    margin-top: -10rem;
+    margin-left: 14rem;
+}
+.first p{
+    max-width: 587px;
+    max-height: 228px;
+    
+    /* margin-top: 379px; */
+    font-size: 46.67px;
+    color: #1E1E1E;
+    font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #FBD8A4;
+     color: #000;
+     }
+
+
+.audiocontainer{
+    
+    font-family: 'salsa';
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    background-color: #FBD8A4;
+    border-radius: 1.5rem;
+    max-width: 530px;
+}
+
+.audiocontainer img{
+    margin-left: 10px;
+}
+.audiocontainer span{
+    margin-left: 10px;
+}
+
+@media(max-width:840px){
+    .deepak1{
+        display: block;
+        margin: auto;
+    }
+    .deepak2,.soulfulmusic,.icon{
+        display: none;
+    }
+    .deepak1{
+        width: 226px;
+        height:226px;
+    }
+    .textaudio{
+        margin-left: 1rem;
+    }
+    .audiocontainer{
+        max-width: fit-content;
+    }
+    .first p{
+        margin-top: 15rem;
+        font-size: 20px;
+        width: 252px;
+        height: 100px;
+    }
+  
+    .design{
+        width: 180px;
+        height:180px;
+    }
+}
+
+.second{
+    
+    background-color: #F99501;
+}
+.second img{
+    
+    box-sizing: border-box;
+    border-radius: 25px;
+    max-width: 1200px;
+    max-height: 763px;
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+.second p{
+    font-family: 'Style Script';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  max-width: 1162px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.imageparacontainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+@media(max-width:840px){
+    .second p{
+        font-size: 24px;
+    }
+}
+.third{
+    background-color: #F99501;
+}
+
+.third p{
+    padding: 4rem;
+    max-width: 855px;
+    max-height: 753px;
+    background-color: aliceblue;
+    font-family: 'salsa';
+    font-size: 45px;
+    font-weight: 400;
+    margin: 3rem;
+    margin-top: 0;
+    border-radius: 1.5rem;
+}
+.third img{
+    margin-left: -8rem;
+    max-width: 455px;
+    max-height: 700px;
+}
+.girlparacontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:840px){
+    .third p{
+        font-size:16px;
+    }
+    .third img{
+        max-height: 350px;
+    }
+}
+
+
+.four{
+    background-color: #F99501;
+}
+
+.four img{
+    
+    box-sizing: border-box;
+    border-radius: 25px;
+    max-width: 1200px;
+    max-height: 763px;
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+
+
+.message{
+    font-family: 'style script';
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.intro{
+    font-family: 'salsa';
+    font-size: 24px;
+
+}
+.four span{
+    font-size: 16px;
+}
+@media (max-width:840px){
+    .intro{
+        font-size: 14px;
+    }
+    .message{
+        font-size: 24px;
+    }
+    .four span{
+        font-size: 12px;
+    }
+}
+.align{
+    display: block;
+    margin: auto;
+}
